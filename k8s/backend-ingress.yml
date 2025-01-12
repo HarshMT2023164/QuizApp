@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: backend-ingress
+  # namespace: jenkins
+spec:
+  defaultBackend:
+    service:
+      name: default-http-backend
+      # namespace: default
+      port:
+        number: 80
+  ingressClassName: nginx
+  rules:
+    - host: demo.backend.me
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: api-gateway-app
+                port:
+                  number: 80

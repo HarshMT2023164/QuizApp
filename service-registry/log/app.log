@@ -1,0 +1,43 @@
+2024-05-11T13:33:07.106+0530 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-05-11T13:33:28.143+0530 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance CONTRIBUTE-SERVICE/sai-iiitb:contribute-service with status DOWN (replication=false)
+2024-05-11T13:33:28.660+0530 [TaskBatchingWorker-target_localhost-16] ERROR c.n.e.c.ReplicationTaskProcessor - Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2024-05-11T13:33:28.660+0530 [TaskBatchingWorker-target_localhost-16] WARN  c.n.e.util.batcher.TaskExecutors - Discarding 1 tasks of TaskBatchingWorker-target_localhost-16 due to permanent error
+2024-05-11T13:33:43.020+0530 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance CONTRIBUTE-SERVICE/sai-iiitb:contribute-service with status UP (replication=false)
+2024-05-11T13:33:43.544+0530 [TaskBatchingWorker-target_localhost-6] ERROR c.n.e.c.ReplicationTaskProcessor - Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2024-05-11T13:33:43.544+0530 [TaskBatchingWorker-target_localhost-6] WARN  c.n.e.util.batcher.TaskExecutors - Discarding 1 tasks of TaskBatchingWorker-target_localhost-6 due to permanent error
+2024-05-11T13:34:07.106+0530 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-05-11T13:34:13.506+0530 [TaskBatchingWorker-target_localhost-6] ERROR c.n.e.c.ReplicationTaskProcessor - Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2024-05-11T13:34:13.506+0530 [TaskBatchingWorker-target_localhost-6] WARN  c.n.e.util.batcher.TaskExecutors - Discarding 1 tasks of TaskBatchingWorker-target_localhost-6 due to permanent error
+2024-05-11T13:34:35.004+0530 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance CONTRIBUTE-SERVICE/sai-iiitb:contribute-service with status UP (replication=false)
+2024-05-11T13:34:35.521+0530 [TaskBatchingWorker-target_localhost-16] ERROR c.n.e.c.ReplicationTaskProcessor - Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2024-05-11T13:34:35.521+0530 [TaskBatchingWorker-target_localhost-16] WARN  c.n.e.util.batcher.TaskExecutors - Discarding 1 tasks of TaskBatchingWorker-target_localhost-16 due to permanent error
+2024-05-11T13:34:36.159+0530 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance CONTRIBUTE-SERVICE/sai-iiitb:contribute-service with status DOWN (replication=false)
+2024-05-11T13:34:36.672+0530 [TaskBatchingWorker-target_localhost-11] ERROR c.n.e.c.ReplicationTaskProcessor - Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2024-05-11T13:34:36.672+0530 [TaskBatchingWorker-target_localhost-11] WARN  c.n.e.util.batcher.TaskExecutors - Discarding 1 tasks of TaskBatchingWorker-target_localhost-11 due to permanent error
+2024-05-11T13:34:43.506+0530 [TaskBatchingWorker-target_localhost-6] ERROR c.n.e.c.ReplicationTaskProcessor - Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2024-05-11T13:34:43.506+0530 [TaskBatchingWorker-target_localhost-6] WARN  c.n.e.util.batcher.TaskExecutors - Discarding 1 tasks of TaskBatchingWorker-target_localhost-6 due to permanent error
+2024-05-11T13:35:07.106+0530 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-05-11T13:35:13.525+0530 [TaskBatchingWorker-target_localhost-16] ERROR c.n.e.c.ReplicationTaskProcessor - Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2024-05-11T13:35:13.525+0530 [TaskBatchingWorker-target_localhost-16] WARN  c.n.e.util.batcher.TaskExecutors - Discarding 1 tasks of TaskBatchingWorker-target_localhost-16 due to permanent error
+2024-05-11T13:35:43.526+0530 [TaskBatchingWorker-target_localhost-6] ERROR c.n.e.c.ReplicationTaskProcessor - Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2024-05-11T13:35:43.526+0530 [TaskBatchingWorker-target_localhost-6] WARN  c.n.e.util.batcher.TaskExecutors - Discarding 1 tasks of TaskBatchingWorker-target_localhost-6 due to permanent error
+2024-05-11T13:36:03.168+0530 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance CONTRIBUTE-SERVICE/sai-iiitb:contribute-service with status DOWN (replication=false)
+2024-05-11T13:36:03.677+0530 [TaskBatchingWorker-target_localhost-11] ERROR c.n.e.c.ReplicationTaskProcessor - Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2024-05-11T13:36:03.677+0530 [TaskBatchingWorker-target_localhost-11] WARN  c.n.e.util.batcher.TaskExecutors - Discarding 1 tasks of TaskBatchingWorker-target_localhost-11 due to permanent error
+2024-05-11T13:36:07.106+0530 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-05-11T13:37:07.106+0530 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-05-11T13:38:07.106+0530 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-05-11T13:39:07.107+0530 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2024-05-11T13:39:58.441+0530 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SERVICE-REGISTRY with eureka with status DOWN
+2024-05-11T13:39:58.613+0530 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
+2024-05-11T13:39:58.632+0530 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2024-05-11T13:39:58.640+0530 [SpringApplicationShutdownHook] INFO  c.netflix.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2024-05-11T13:39:58.643+0530 [SpringApplicationShutdownHook] INFO  c.netflix.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2024-05-11T13:39:58.644+0530 [SpringApplicationShutdownHook] INFO  c.netflix.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2024-05-11T13:39:58.644+0530 [SpringApplicationShutdownHook] INFO  c.netflix.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2024-05-11T13:39:58.703+0530 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2024-05-11T13:39:58.704+0530 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka Service is now shutdown...
+2024-05-11T13:39:58.708+0530 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+2024-05-11T13:39:58.720+0530 [SpringApplicationShutdownHook] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+2024-05-11T13:39:58.746+0530 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-05-11T13:39:58.751+0530 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
