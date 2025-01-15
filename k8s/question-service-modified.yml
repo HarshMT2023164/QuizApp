@@ -20,7 +20,7 @@ spec:
           image: harshmt2023164/question-service:0.0.1
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 8086
           env:
             - name: EUREKA_HOSTNAME
               valueFrom:
@@ -76,7 +76,7 @@ spec:
     app: question-service-app
   ports:
     - port: 80
-      targetPort: 8080
+      targetPort: 8086
 ---
 apiVersion: v1
 kind: ConfigMap
