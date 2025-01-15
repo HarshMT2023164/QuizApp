@@ -65,7 +65,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>saihemanth1997/config-server</repository>
+					<repository>harshmt2023164/config-server</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
