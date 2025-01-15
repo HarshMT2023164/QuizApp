@@ -78,7 +78,7 @@ pipeline {
         stage('docker push images'){
           steps{
               script{
-                  docker.withRegistry('', 'DockerHubCred') {
+                  docker.withRegistry('', 'eco-cred') {
                       sh 'docker push harshmt2023164/question-service:0.0.1'
                       sh 'docker push harshmt2023164/contribute-service:0.0.1'
                       sh 'docker push harshmt2023164/quiz-service:0.0.1'
