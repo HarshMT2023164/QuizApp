@@ -101,7 +101,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>saihemanth1997/contribute-service</repository>
+					<repository>harshmt2023164/contribute-service</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>

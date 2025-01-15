@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: contribute-service-app
-          image: saihemanth1997/contribute-service:0.0.1
+          image: harshmt2023164/contribute-service:0.0.1
           imagePullPolicy: Always
           ports:
             - containerPort: 8090

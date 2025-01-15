@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: api-gateway-app
-          image: saihemanth1997/api-gateway:0.0.1
+          image: harshmt2023164/api-gateway:0.0.1
           imagePullPolicy: Always
           ports:
             - containerPort: 8765

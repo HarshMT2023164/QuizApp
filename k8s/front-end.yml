@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: saihemanth1997/front-end
+          image: harshmt2023164/front-end
           ports:
             - containerPort: 3000
           # resources:

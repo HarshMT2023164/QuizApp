@@ -126,7 +126,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>saihemanth1997/question-service</repository>
+					<repository>harshmt2023164/question-service</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>

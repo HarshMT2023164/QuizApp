@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: config-server-app
-          image: saihemanth1997/config-server:0.0.1
+          image: harshmt2023164/config-server:0.0.1
           imagePullPolicy: Always
           ports:
             - containerPort: 9296

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: quiz-service-app
-          image: saihemanth1997/quiz-service:0.0.1
+          image: harshmt2023164/quiz-service:0.0.1
           imagePullPolicy: Always
           ports:
             - containerPort: 8090
