@@ -14,7 +14,7 @@ pipeline {
                     doGenerateSubmoduleConfigurations: false,
                     extensions: [[$class: 'CloneOption', timeout: 15]],
                     submoduleCfg: [],
-                    userRemoteConfigs: [[url: 'https://github.com/HarshMT2023164/QuizApp.git]]
+                    userRemoteConfigs: [[url: 'https://github.com/HarshMT2023164/QuizApp.git']]
                 ])
             }
         }
