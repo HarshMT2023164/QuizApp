@@ -91,4 +91,4 @@ data:
   EUREKA_DEFAULT_ZONE: http://eureka-0.eureka.webapps.svc.cluster.local:8761/eureka
   DB_URL: jdbc:mysql://mysql-svc:3306/Quiz?createDatabaseIfNotExist=true
   DB_USERNAME: root
-  DB_PASSWORD: Hemanth@2000
+  DB_PASSWORD: Rhs@342001

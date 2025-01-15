@@ -4,7 +4,7 @@ spring:
   datasource:
     url: ${DB_URL:jdbc:mysql://localhost:3306/Contribute?createDatabaseIfNotExist=true}
     username: ${DB_USERNAME:root}
-    password: ${DB_PASSWORD:Hemanth@2000}
+    password: ${DB_PASSWORD:Rhs@342001}
   jpa:
     hibernate:
       ddl-auto: update
