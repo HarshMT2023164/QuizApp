@@ -6,7 +6,6 @@ metadata:
 spec:
   defaultBackend:
     service:
-      name: default-http-backend
       # namespace: default
       port:
         number: 80
