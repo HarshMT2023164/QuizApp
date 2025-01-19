@@ -1,49 +1,74 @@
-2024-04-30T10:41:42.207+0530 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application CLOUD-CONFIG-SERVER with eureka with status DOWN
-2024-04-30T10:41:42.213+0530 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2024-04-30T10:41:42.218+0530 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2024-05-11T12:03:21.843+0530 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-05-11T12:03:21.869+0530 [main] INFO  c.e.c.CloudConfigServerApplication - Starting CloudConfigServerApplication using Java 20.0.1 with PID 53243 (/home/hemanth/Desktop/iiitb/SPE/SPEMAJORPROJECT/cloud-config-server/target/classes started by hemanth in /home/hemanth/Desktop/iiitb/SPE/SPEMAJORPROJECT/cloud-config-server)
-2024-05-11T12:03:21.870+0530 [main] DEBUG c.e.c.CloudConfigServerApplication - Running with Spring Boot v3.2.4, Spring v6.1.5
-2024-05-11T12:03:21.870+0530 [main] INFO  c.e.c.CloudConfigServerApplication - No active profile set, falling back to 1 default profile: "default"
-2024-05-11T12:03:22.420+0530 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d5113200-e7d7-3f08-9f5b-021c93f756a2
-2024-05-11T12:03:22.457+0530 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-05-11T12:03:22.458+0530 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2024-05-11T12:03:22.574+0530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9296 (http)
-2024-05-11T12:03:22.580+0530 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9296"]
-2024-05-11T12:03:22.581+0530 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-05-11T12:03:22.581+0530 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-2024-05-11T12:03:22.617+0530 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-05-11T12:03:22.617+0530 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 723 ms
-2024-05-11T12:03:23.132+0530 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2024-05-11T12:03:26.869+0530 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-05-11T12:03:26.899+0530 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2024-05-11T12:03:26.916+0530 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2024-05-11T12:03:26.916+0530 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
-2024-05-11T12:03:26.921+0530 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1715409206920 with initial instances count: 0
-2024-05-11T12:03:26.924+0530 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application CLOUD-CONFIG-SERVER with eureka with status UP
-2024-05-11T12:03:26.924+0530 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9296"]
-2024-05-11T12:03:26.932+0530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9296 (http) with context path ''
-2024-05-11T12:03:26.933+0530 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9296
-2024-05-11T12:03:27.407+0530 [main] INFO  c.e.c.CloudConfigServerApplication - Started CloudConfigServerApplication in 5.902 seconds (process running for 6.409)
-2024-05-11T12:04:05.976+0530 [http-nio-9296-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-11T12:04:05.976+0530 [http-nio-9296-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2024-05-11T12:04:05.977+0530 [http-nio-9296-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2024-05-11T12:04:07.567+0530 [http-nio-9296-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:12:09.136+0530 [http-nio-9296-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:16:00.354+0530 [http-nio-9296-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:16:26.364+0530 [http-nio-9296-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:16:57.394+0530 [http-nio-9296-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:19:52.604+0530 [http-nio-9296-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:20:20.964+0530 [http-nio-9296-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:22:33.368+0530 [http-nio-9296-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:23:04.504+0530 [http-nio-9296-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:24:35.128+0530 [http-nio-9296-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:25:04.718+0530 [http-nio-9296-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:26:29.923+0530 [http-nio-9296-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:26:55.619+0530 [http-nio-9296-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:28:53.997+0530 [http-nio-9296-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:29:28.298+0530 [http-nio-9296-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:32:12.855+0530 [http-nio-9296-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:32:34.256+0530 [http-nio-9296-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:37:20.877+0530 [http-nio-9296-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
-2024-05-11T12:37:55.795+0530 [http-nio-9296-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T12:39:38.101+0530 [http-nio-9296-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T12:40:05.450+0530 [http-nio-9296-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:08:31.444+0530 [http-nio-9296-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:09:06.258+0530 [http-nio-9296-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:10:08.547+0530 [http-nio-9296-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:10:32.065+0530 [http-nio-9296-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:17:11.429+0530 [http-nio-9296-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:23:22.216+0530 [http-nio-9296-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:23:50.687+0530 [http-nio-9296-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:27:51.332+0530 [http-nio-9296-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:30:54.634+0530 [http-nio-9296-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:31:44.808+0530 [http-nio-9296-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:33:38.055+0530 [http-nio-9296-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:34:29.976+0530 [http-nio-9296-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-10134888000635581767/application.yml]' via location 'file:/tmp/config-repo-10134888000635581767/'
+2024-05-11T13:39:53.157+0530 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application CLOUD-CONFIG-SERVER with eureka with status DOWN
+2024-05-11T13:39:53.251+0530 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-05-11T13:39:53.305+0530 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-01-16T00:31:05.252+0530 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-01-16T00:31:05.296+0530 [main] INFO  c.e.c.CloudConfigServerApplication - Starting CloudConfigServerApplication using Java 21.0.2 with PID 43967 (/home/harsh/quizapp/QuizApp/cloud-config-server/target/classes started by harsh in /home/harsh/quizapp/QuizApp/cloud-config-server)
+2025-01-16T00:31:05.297+0530 [main] DEBUG c.e.c.CloudConfigServerApplication - Running with Spring Boot v3.2.4, Spring v6.1.5
+2025-01-16T00:31:05.297+0530 [main] INFO  c.e.c.CloudConfigServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16T00:31:06.271+0530 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d5113200-e7d7-3f08-9f5b-021c93f756a2
+2025-01-16T00:31:06.333+0530 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-01-16T00:31:06.335+0530 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-01-16T00:31:06.546+0530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9296 (http)
+2025-01-16T00:31:06.556+0530 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9296"]
+2025-01-16T00:31:06.557+0530 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-16T00:31:06.558+0530 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-01-16T00:31:06.602+0530 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-16T00:31:06.602+0530 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1261 ms
+2025-01-16T00:31:07.444+0530 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-01-16T00:31:07.618+0530 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: You need to configure a uri for the git repository.
+2025-01-16T00:31:07.623+0530 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-01-16T00:31:07.638+0530 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-16T00:31:07.656+0530 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid config server configuration.
+
+Action:
+
+If you are using the git profile, you need to set a Git URI in your configuration.  If you have set spring.cloud.config.server.bootstrap=true, you need to use a composite configuration.
+
+2025-01-16T00:35:32.503+0530 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-01-16T00:35:32.551+0530 [main] INFO  c.e.c.CloudConfigServerApplication - Starting CloudConfigServerApplication using Java 21.0.2 with PID 44475 (/home/harsh/quizapp/QuizApp/cloud-config-server/target/classes started by harsh in /home/harsh/quizapp/QuizApp/cloud-config-server)
+2025-01-16T00:35:32.551+0530 [main] DEBUG c.e.c.CloudConfigServerApplication - Running with Spring Boot v3.2.4, Spring v6.1.5
+2025-01-16T00:35:32.552+0530 [main] INFO  c.e.c.CloudConfigServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16T00:35:33.427+0530 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d5113200-e7d7-3f08-9f5b-021c93f756a2
+2025-01-16T00:35:33.498+0530 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-01-16T00:35:33.501+0530 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-01-16T00:35:33.720+0530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9296 (http)
+2025-01-16T00:35:33.729+0530 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9296"]
+2025-01-16T00:35:33.730+0530 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-16T00:35:33.731+0530 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-01-16T00:35:33.773+0530 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-16T00:35:33.774+0530 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1176 ms
+2025-01-16T00:35:34.430+0530 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-01-16T00:35:39.893+0530 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-01-16T00:35:39.946+0530 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-01-16T00:35:39.979+0530 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-01-16T00:35:39.979+0530 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2025-01-16T00:35:39.989+0530 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1736967939987 with initial instances count: 0
+2025-01-16T00:35:39.994+0530 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application CLOUD-CONFIG-SERVER with eureka with status UP
+2025-01-16T00:35:39.996+0530 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9296"]
+2025-01-16T00:35:40.011+0530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9296 (http) with context path ''
+2025-01-16T00:35:40.012+0530 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9296
+2025-01-16T00:35:40.051+0530 [main] INFO  c.e.c.CloudConfigServerApplication - Started CloudConfigServerApplication in 8.202 seconds (process running for 9.078)

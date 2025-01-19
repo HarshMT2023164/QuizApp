@@ -2,6 +2,10 @@
 #  tracing:
 #    sampling:
 #      probability: 1.0
+server:
+  port: 9290
+
+
 spring:
   application:
     name: question-service
